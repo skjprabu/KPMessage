@@ -1,3 +1,4 @@
+var applicationFromJson = "applicationForm.json";
 angular.module('myApp.registration', ['ngRoute'])
 
     .config(['$routeProvider', function($routeProvider) {
@@ -8,5 +9,8 @@ angular.module('myApp.registration', ['ngRoute'])
     }])
 
     .controller('PersonalInfoCtrl', [function() {
+        this.applicationForm = {};
+        applicationSubmit =  function () {
 
+        }
     }]);
