@@ -1,0 +1,81 @@
+{
+  "zipcode": "",
+  "enrollmentPeriod": {
+    "enrollmentType": "",
+    "triggeringEvent": "",
+    "dateofTriggeringEvent":""
+
+  },
+  "applicantInfo": {
+    "fname":"",
+    "lname":"",
+    "mname":"",
+    "suffix":"",
+    "address":{
+      "line1":"",
+      "line2":"",
+      "city":"",
+      "state":"",
+      "zipcode":"",
+      "zipcodeExt":""
+    },
+    "phonenumbers":{
+      "type":"",
+      "number":""
+    },
+    "email":"",
+    "userid":"",
+    "password":"",
+    "secQuestion":"",
+    "secAnswer":"",
+    "workingWithAgent":"",
+    "agentFname":"",
+    "agentLname":"",
+    "agency":"",
+    "agentNumber":"",
+    "agentPhoneNumber":"",
+    "agentAddress":{
+      "line1":"",
+      "line2":"",
+      "city":"",
+      "state":"",
+      "zipcode":"",
+      "zipcodeExt":""
+    },
+    "primaryApplicantInfo": {
+      "fname":"",
+      "lname":"",
+      "mname":"",
+      "suffix":"",
+      "address":{
+        "line1":"",
+        "line2":"",
+        "city":"",
+        "state":"",
+        "zipcode":"",
+        "zipcodeExt":""
+      },
+      "phonenumbers":{
+        "type":"",
+        "number":""
+      },
+      "gender":"",
+      "existFormerUser":"",
+      "preferredLanguageSpoken":"",
+      "preferredLanguageRead":"",
+      "familyMembers":{
+        "fname":"",
+        "lname":"",
+        "mname":"",
+        "suffix":"",
+        "relation":"",
+        "gender":"",
+        "existFormerUser":""
+      }
+    },
+    "selectedPlan":"",
+    "dental":"",
+    "electronicSignature":""
+
+  }
+}
