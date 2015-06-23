@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css"/>
+
+
+</head>
+<body ng-app="angularApp" ng-controller="SessionController as session">
+
+<!-- Page Content -->
+<div class="container">
+    <div ng-view=""></div>
+</div>
+<!-- /.container -->
+
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/ng-idle/angular-idle.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+
+<script src="app.js"></script>
+<script src="scripts/controllers/mainController.js"></script>
+<script src="scripts/controllers/sessionController.js"></script>
+<script src="scripts/services/authenticationHttpResponseInterceptor.js"></script>
+<script src="scripts/utils/sessionTimeoutDialog.js"></script>
+<script src="scripts/utils/extendLog.js"></script>
+
+
+</body>
+</html>
